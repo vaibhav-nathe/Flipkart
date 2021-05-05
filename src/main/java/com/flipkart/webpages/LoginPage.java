@@ -17,7 +17,7 @@ public class LoginPage {
     private WebElement Password;
 	@FindBy(how = How.XPATH, using = "//button[@class='_2KpZ6l _2HKlqd _3AWRsL']")
     private WebElement button;
-    @FindBy(how = How.XPATH, using = "//*[@id=\"container\"]/div/div[1]/div[1]/div[2]/div[2]/form/div/div/input")
+    @FindBy(how = How.XPATH, using = "//*[@name='q']")
 	private WebElement Search;
     @FindBy(how = How.CLASS_NAME, using = "L0Z3Pu")
     private WebElement SearchClick;

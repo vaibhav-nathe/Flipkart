@@ -17,6 +17,7 @@ public class LoginTest extends TestBase {
 	    	login.enterEmail("vaibhav.nathe@gmail.com");
 	    	login.enterPassword("Vn@11006020");
 	    	login.clickLoginButton();
+	    	Thread.sleep(4000);
 	    	login.enterInSearch("iPhone");
 	    	login.clickSearch();
 	
